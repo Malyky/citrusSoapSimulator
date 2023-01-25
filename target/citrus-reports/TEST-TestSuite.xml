@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="0.0" tests="4" errors="0" skipped="0" failures="0">
+    <testcase name="SimulatorWebServiceIT.testGoodByeRequest" classname="org.citrusframework.simulator.SimulatorWebServiceIT" time="0.0"/>
+    <testcase name="SimulatorWebServiceIT.testGoodNightRequest" classname="org.citrusframework.simulator.SimulatorWebServiceIT" time="0.0"/>
+    <testcase name="SimulatorWebServiceIT.testHelloRequest" classname="org.citrusframework.simulator.SimulatorWebServiceIT" time="0.0"/>
+    <testcase name="SimulatorWebServiceIT.testUnknownRequest" classname="org.citrusframework.simulator.SimulatorWebServiceIT" time="0.0"/>
+</testsuite>

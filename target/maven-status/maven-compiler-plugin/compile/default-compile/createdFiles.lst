@@ -1,0 +1,7 @@
+org\citrusframework\simulator\scenario\GoodNightScenario.class
+org\citrusframework\simulator\scenario\GoodByeScenario.class
+org\citrusframework\simulator\Simulator.class
+org\citrusframework\simulator\starter\GoodByeStarter.class
+org\citrusframework\simulator\scenario\HelloScenario.class
+org\citrusframework\simulator\starter\HelloStarter.class
+org\citrusframework\simulator\scenario\DefaultScenario.class

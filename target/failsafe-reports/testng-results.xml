@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-25T20:56:23 MEZ" name="Surefire suite" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="814">
+    <groups>
+    </groups>
+    <test started-at="2023-01-25T20:56:23 MEZ" name="Surefire test" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="814">
+      <class name="org.citrusframework.simulator.SimulatorWebServiceIT">
+        <test-method is-config="true" signature="beforeSuite(org.testng.ITestContext)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:22 MEZ" name="beforeSuite" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="557" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@687e6293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextBeforeTestClass" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextPrepareTestInstance" finished-at="2023-01-25T20:56:23 MEZ" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextBeforeTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testGoodByeRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testGoodByeRequest()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="testGoodByeRequest" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoodByeRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextAfterTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testGoodByeRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testGoodNightRequest()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="testGoodNightRequest" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGoodNightRequest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextBeforeTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testGoodNightRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextAfterTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testGoodNightRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method signature="testHelloRequest()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="testHelloRequest" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="56" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHelloRequest -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextBeforeTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testHelloRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextAfterTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testHelloRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextBeforeTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testUnknownRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="testUnknownRequest()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="testUnknownRequest" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUnknownRequest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextAfterTestMethod" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void org.citrusframework.simulator.SimulatorWebServiceIT.testUnknownRequest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:23 MEZ" name="springTestContextAfterTestClass" finished-at="2023-01-25T20:56:23 MEZ" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method is-config="true" signature="afterSuite(org.testng.ITestContext)[pri:0, instance:org.citrusframework.simulator.SimulatorWebServiceIT@7a220c9a]" started-at="2023-01-25T20:56:24 MEZ" name="afterSuite" finished-at="2023-01-25T20:56:24 MEZ" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@687e6293]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- org.citrusframework.simulator.SimulatorWebServiceIT -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
