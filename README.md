@@ -51,6 +51,12 @@ You can execute the Citrus integration tests now in order to get some interactio
 run the tests with TestNG plugins. You should see the tests calling operations on the simulator in order to receive proper responses. The simulator user interface should track those
 interactions accordingly.
 
+FAT JAR @Sebastian :)
+---------
+
+mvn package spring-boot:repackage
+
+
 Information
 ---------
 
